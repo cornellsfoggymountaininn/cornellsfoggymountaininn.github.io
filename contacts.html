@@ -69,6 +69,45 @@
         .go-to-home a:hover {
             background-color: #2e8b57; /* Dark green */
         }
+
+        /* Responsive styles */
+        @media (max-width: 768px) {
+            .contact-section {
+                padding: 15px;
+            }
+
+            .contact-section h2 {
+                font-size: 2em;
+            }
+
+            .contact-details {
+                font-size: 1em;
+            }
+
+            .go-to-home a {
+                font-size: 1em;
+                padding: 8px 15px;
+            }
+
+            .map iframe {
+                height: 200px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .contact-section h2 {
+                font-size: 1.8em;
+            }
+
+            .contact-details {
+                font-size: 0.9em;
+            }
+
+            .go-to-home a {
+                font-size: 0.9em;
+                padding: 7px 12px;
+            }
+        }
     </style>
 </head>
 <body>
